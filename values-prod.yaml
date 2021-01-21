@@ -3,3 +3,4 @@
 # Declare variables to be passed into your templates.
 
 replica: 3
+nodePort: 30008
