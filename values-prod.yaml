@@ -2,5 +2,5 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replica: 3
+replica: 8
 nodePort: 30008
