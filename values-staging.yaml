@@ -4,3 +4,5 @@
 
 replica: 3
 nodePort: 30007
+faults:
+  testFail: false
