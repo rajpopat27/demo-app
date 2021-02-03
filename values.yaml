@@ -1,2 +1,2 @@
-replica: 5
-nodePort: 30007
+replica: 3
+nodePort: 30010
