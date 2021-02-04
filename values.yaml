@@ -1,5 +1,5 @@
 replica: 1
-nodePort: 30011
+nodePort: 30010
 faults:
   testFail: true
   testTimeout: true
