@@ -1,4 +1,4 @@
 replica: 1
 nodePort: 30010
 faults:
-  testFail: false
+  testFail: true
