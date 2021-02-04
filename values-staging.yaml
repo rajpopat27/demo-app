@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replica: 3
+replica: 1
 nodePort: 30007
 faults:
   testFail: false
