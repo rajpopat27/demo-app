@@ -5,4 +5,5 @@
 replica: 1
 nodePort: 30007
 faults:
-  testFail: false
+  testFail: true
+  testTimeout: true

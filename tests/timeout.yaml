@@ -1,8 +1,8 @@
-{{- if .Values.faults.testFail }}
+{{- if .Values.faults.testTimeout }}
 apiVersion: v1
 kind: Pod
 metadata:
-  name: timeout.yaml
+  name: timeout
   annotations:
     "helm.sh/hook": test-success
     "helm.sh/hook-delete-policy": before-hook-creation,hook-succeeded
@@ -11,6 +11,6 @@ spec:
     - name: fault
       image: alpine:3.11
       command: ['/bin/sh']
-      args:  ['-c', 'exit 1']
+      args:  ['-c', 'while sleep 3600; do :; done']
   restartPolicy: Never
 {{- end }}
