@@ -3,6 +3,6 @@
 # Declare variables to be passed into your templates.
 
 replica: 3
-nodePort: 30007
+nodePort: 30008
 faults:
-  testFail: true
+  testFail: false
